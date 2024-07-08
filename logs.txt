@@ -1,0 +1,109 @@
+{"level":"info","message":"/api/products - {}","service":"request-logging"}
+{"level":"info","message":"/api/products - {}","service":"request-logging"}
+{"level":"info","message":"/api/products - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?userID=2&productID=10&rating=4.5 - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?userID=2&productID=10&rating=4.5 - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?userID=20&productID=1&rating=4.5 - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?userID=20&productID=1&rating=5 - {}","service":"request-logging"}
+{"level":"info","message":"/api/product/rate?userID=20&productID=1&rating=5 - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?userID=11&productID=1&rating=5 - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?userID=11&productID=1&rating=5 - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?userID=11&productID=1&rating=5 - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?userID=11&productID=1&rating=5 - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?userID=11&productID=1&rating=5 - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?userID=11&productID=1&rating=5 - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?userID=11&productID=1&rating=5 - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?userID=11&productID=1&rating=5 - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?userID=11&productID=1&rating=5 - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?userID=1&productID=11&rating=5 - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?userID=1&productID=11&rating=5 - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?userID=1&productID=11&rating=5 - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?userID=1&productID=11&rating=5 - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?userID=1&productID=11&rating=5 - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?userID=1&productID=11&rating=5 - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?userID=1&productID=11&rating=5 - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?userID=1&productID=11&rating=5 - {}","service":"request-logging"}
+{"level":"error","message":"TimeStamp: Fri Jun 14 2024 19:44:39 GMT+0530 (India Standard Time) req URL: /api/products/rate?userID=1&productID=11&rating=5 error msg: Cannot read properties of undefined (reading 'rating')","service":"request-logging"}
+{"level":"info","message":"/ - {}","service":"request-logging"}
+{"level":"info","message":"/favicon.ico - {}","service":"request-logging"}
+{"level":"info","message":"/ - {}","service":"request-logging"}
+{"level":"info","message":"/ - {}","service":"request-logging"}
+{"level":"info","message":"/ - {}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"jayant\",\"email\":\"jkay025@gmail.com\",\"password\":\"1234\",\"type\":\"seller\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"jayant\",\"email\":\"jkay025@gmail.com\",\"password\":\"1234\",\"type\":\"seller\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"jayant\",\"email\":\"jkay025@gmail.com\",\"password\":\"1234\",\"type\":\"seller\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"jayant\",\"email\":\"jkay025@gmail.com\",\"password\":\"1234\",\"type\":\"seller\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"Seller user\",\"email\":\"seller@ecom.com\",\"password\":\"Password1\",\"type\":\"seller\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"Seller user 2\",\"email\":\"seller@ecom.com\",\"password\":\"Password2\",\"type\":\"seller2\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"Seller user 2\",\"email\":\"seller@ecom.com\",\"password\":\"Password2\",\"type\":\"seller2\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"Seller user 3\",\"email\":\"seller3@ecom.com\",\"password\":\"Password3\",\"type\":\"seller\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"Seller user 3\",\"email\":\"seller3@ecom.com\",\"password\":\"Password3\",\"type\":\"seller\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"Seller user 3\",\"email\":\"seller3@ecom.com\",\"password\":\"Password3\",\"type\":\"seller\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"Seller user 4\",\"email\":\"seller4@ecom.com\",\"password\":\"Password4\",\"type\":\"seller\"}","service":"request-logging"}
+{"level":"info","message":"/api/products - {}","service":"request-logging"}
+{"level":"info","message":"/api/products - {}","service":"request-logging"}
+{"level":"info","message":"/api/products - {}","service":"request-logging"}
+{"level":"info","message":"/api/products - {}","service":"request-logging"}
+{"level":"info","message":"/api/products - {}","service":"request-logging"}
+{"level":"info","message":"/api/products - {}","service":"request-logging"}
+{"level":"info","message":"/api/products - {}","service":"request-logging"}
+{"level":"info","message":"/api/products - {}","service":"request-logging"}
+{"level":"info","message":"/api/products - {}","service":"request-logging"}
+{"level":"info","message":"/api/products - {}","service":"request-logging"}
+{"level":"info","message":"/api/products - {}","service":"request-logging"}
+{"level":"info","message":"/api/products - {}","service":"request-logging"}
+{"level":"info","message":"/api/products - {}","service":"request-logging"}
+{"level":"info","message":"/api/products - {}","service":"request-logging"}
+{"level":"info","message":"/api/products - {}","service":"request-logging"}
+{"level":"info","message":"/api/products - {}","service":"request-logging"}
+{"level":"info","message":"/api/products - {}","service":"request-logging"}
+{"level":"info","message":"/api/products - {}","service":"request-logging"}
+{"level":"info","message":"/api/products - {}","service":"request-logging"}
+{"level":"info","message":"/api/products - {}","service":"request-logging"}
+{"level":"info","message":"/api/products - {}","service":"request-logging"}
+{"level":"info","message":"/api/products - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/6675ba8f600fe036f3053fbd - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/6675ba8f600fe036f3053fbd - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/6675ba8f600fe036f3053fbd - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/6675ba8f600fe036f3053fbd - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/6675ba8f600fe036f3053fbd - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/filter?minPrice=10 - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/filter?minPrice=10 - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/filter?minPrice=10 - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/filter?maxPrice=1000 - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/6675ba8f600fe036f3053fbd - {}","service":"request-logging"}
+{"level":"info","message":"/api/products - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/filter?maxPrice=20000 - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/filter?maxPrice=90000 - {}","service":"request-logging"}
+{"level":"info","message":"/api/products - {}","service":"request-logging"}
+{"level":"info","message":"/api/products - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/filter?maxPrice=30000 - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/filter?minPrice=20000&maxPrice=30000 - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/filter?minPrice=20000&maxPrice=30000 - {}","service":"request-logging"}
+{"level":"error","message":"TimeStamp: Tue Jun 25 2024 22:25:28 GMT+0530 (India Standard Time) req URL: /api/products/filter?minPrice=20000&maxPrice=30000 error msg: next is not a function","service":"request-logging"}
+{"level":"info","message":"/api/products - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/filter?minPrice=20000&maxPrice=30000 - {}","service":"request-logging"}
+{"level":"error","message":"TimeStamp: Tue Jun 25 2024 22:28:17 GMT+0530 (India Standard Time) req URL: /api/products/filter?minPrice=20000&maxPrice=30000 error msg: next is not a function","service":"request-logging"}
+{"level":"info","message":"/api/products/filter?minPrice=20000&maxPrice=30000 - {}","service":"request-logging"}
+{"level":"error","message":"TimeStamp: Tue Jun 25 2024 22:29:47 GMT+0530 (India Standard Time) req URL: /api/products/filter?minPrice=20000&maxPrice=30000 error msg: next is not a function","service":"request-logging"}
+{"level":"info","message":"/api/products/filter?minPrice=20000&maxPrice=30000 - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?productID=667af71e991590c25bc3b303&rating=4.5 - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/filter?minPrice=20000&maxPrice=30000 - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?productID=667af71e991590c25bc3b303&rating=4.5 - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?productID=667af71e991590c25bc3b303&rating=4.5 - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?productID=667af71e991590c25bc3b303&rating=4.5 - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?productID=667af71e991590c25bc3b303&rating=4.5 - {}","service":"request-logging"}
+{"level":"error","message":"TimeStamp: Tue Jun 25 2024 22:56:29 GMT+0530 (India Standard Time) req URL: /api/products/rate?productID=667af71e991590c25bc3b303&rating=4.5 error msg: next is not defined","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?productID=667af71e991590c25bc3b303&rating=4.5 - {}","service":"request-logging"}
+{"level":"error","message":"TimeStamp: Tue Jun 25 2024 22:57:18 GMT+0530 (India Standard Time) req URL: /api/products/rate?productID=667af71e991590c25bc3b303&rating=4.5 error msg: Cannot read properties of undefined (reading 'rating')","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?productID=667af71e991590c25bc3b303&rating=4.5 - {}","service":"request-logging"}
+{"level":"error","message":"TimeStamp: Tue Jun 25 2024 23:03:16 GMT+0530 (India Standard Time) req URL: /api/products/rate?productID=667af71e991590c25bc3b303&rating=4.5 error msg: Cannot read properties of undefined (reading 'rating')","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?productID=667af71e991590c25bc3b303&rating=4.5 - {}","service":"request-logging"}
+{"level":"error","message":"TimeStamp: Tue Jun 25 2024 23:04:30 GMT+0530 (India Standard Time) req URL: /api/products/rate?productID=667af71e991590c25bc3b303&rating=4.5 error msg: Cannot read properties of undefined (reading 'rating')","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?productID=667af56c3efe97e55c2365d7&rating=4.5 - {}","service":"request-logging"}
+{"level":"error","message":"TimeStamp: Tue Jun 25 2024 23:04:48 GMT+0530 (India Standard Time) req URL: /api/products/rate?productID=667af56c3efe97e55c2365d7&rating=4.5 error msg: Cannot read properties of undefined (reading 'rating')","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?productID=667af56c3efe97e55c2365d7&rating=4.5 - {}","service":"request-logging"}
+{"level":"error","message":"TimeStamp: Tue Jun 25 2024 23:06:04 GMT+0530 (India Standard Time) req URL: /api/products/rate?productID=667af56c3efe97e55c2365d7&rating=4.5 error msg: Cannot read properties of undefined (reading 'rating')","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?productID=667af56c3efe97e55c2365d7&rating=4.5 - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?productID=667af56c3efe97e55c2365d7&rating=4.5 - {}","service":"request-logging"}
+{"level":"info","message":"/api/products/rate?productID=667af56c3efe97e55c2365d7&rating=4.5 - {}","service":"request-logging"}

@@ -1,0 +1,14 @@
+{
+	"launch": {
+		"version": "0.2.0",
+		"configurations": []
+	},
+	"folders": [
+		{
+			"path": "Carrier Camp/Backend/E-COM-API using REST APIs"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "scaffold"
+	}
+}

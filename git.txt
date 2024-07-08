@@ -1,0 +1,15 @@
+git init - inititilize the git in the required folder
+git status - which all files have been changed 
+git add phone.txt . - add file to git
+git commit -m 'phone created'
+git diff - shows chabges as comapared to the last commit 
+git log - shows all the commits with commit id's
+git checkout 6cbb5df22f18b91c5cda3590f1542199260c34aa - go to the required change, if you wanted to go back to some specific point
+git checkout -b internet/ main - to create (-b) got to the specific branch
+git branch - shows all the branches and which one is active currently
+git merge internet - it merges the "internet" branch to the current branch
+git branch -d internet - delete the internet branch
+
+pbcopy  ~/.ssh/id_rsa.pub
+
+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
