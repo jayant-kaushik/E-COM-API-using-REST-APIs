@@ -66,11 +66,32 @@ class ProductRepository {
 		}
 	}
 
-	rate(userID, productID, rating) {
+	async rate(userID, productID, rating) {
 		try {
 			const db = getDB();
 			const collection = db.collection(this.collection);
-			collection.updateOne({ _id: new ObjectId(productID) }, { $push: { ratings: { userID: new ObjectId(userID), rating } } });
+			// 1. Find the product
+			const product = await collection.findOne({ _id: new ObjectId(productID) });
+			// console.log("product", product);
+			// 2. Find the ratings (if any)
+			const userRating = product?.ratings?.find((r) => r.userID == userID);
+			// console.log("userRating", userRating);
+			if (userRating) {
+				// 3. Update the rating
+				await collection.updateOne(
+					{
+						_id: new ObjectId(productID),
+						"ratings.userID": new ObjectId(userID),
+					},
+					{
+						$set: { "ratings.$.rating": rating },
+					}
+				);
+				// console.log("inside if");
+			} else {
+				await collection.updateOne({ _id: new ObjectId(productID) }, { $push: { ratings: { userID: new ObjectId(userID), rating } } });
+				// console.log("inside else");
+			}
 		} catch (err) {
 			console.log(err);
 			throw new ApplicationError("Something went wrong", 500);
