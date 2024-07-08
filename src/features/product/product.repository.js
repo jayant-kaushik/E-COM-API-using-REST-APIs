@@ -70,28 +70,10 @@ class ProductRepository {
 		try {
 			const db = getDB();
 			const collection = db.collection(this.collection);
-			// 1. Find the product
-			const product = await collection.findOne({ _id: new ObjectId(productID) });
-			// console.log("product", product);
-			// 2. Find the ratings (if any)
-			const userRating = product?.ratings?.find((r) => r.userID == userID);
-			// console.log("userRating", userRating);
-			if (userRating) {
-				// 3. Update the rating
-				await collection.updateOne(
-					{
-						_id: new ObjectId(productID),
-						"ratings.userID": new ObjectId(userID),
-					},
-					{
-						$set: { "ratings.$.rating": rating },
-					}
-				);
-				// console.log("inside if");
-			} else {
-				await collection.updateOne({ _id: new ObjectId(productID) }, { $push: { ratings: { userID: new ObjectId(userID), rating } } });
-				// console.log("inside else");
-			}
+			// 1. Remove existing entry (if any)
+			await collection.updateOne({ _id: new ObjectId(productID) }, { $pull: { ratings: { userID: new ObjectId(userID) } } });
+			// 2. Add new entry
+			await collection.updateOne({ _id: new ObjectId(productID) }, { $push: { ratings: { userID: new ObjectId(userID), rating } } });
 		} catch (err) {
 			console.log(err);
 			throw new ApplicationError("Something went wrong", 500);
